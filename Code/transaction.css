@@ -1,0 +1,148 @@
+
+.f1{
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+  }
+  .c0{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+  }
+  .img{
+    display: block;
+    width : 80%;
+    height:auto;
+  }
+ 
+section{
+    padding: 5em;
+}
+::-webkit-input-placeholder { 
+  color: #fff;
+}
+::-moz-placeholder { 
+  color: #fff;
+}
+.search-focus {
+    background: url("search_logo.png") no-repeat left;
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all .5s;
+}
+.search-focus:focus{
+    width: 300px;
+    padding-left: 50px;
+}
+
+.search-hover {
+    background: url("search_logo.png") no-repeat left;
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all .5s;
+}
+.search-hover:hover{
+    width: 300px;
+    padding-left: 50px;
+}
+
+.search-click {
+position: relative;
+overflow: hidden;
+height: 50px;
+}  
+.search-click input {
+background: transparent;
+border: 1px solid #ccc;
+outline: none;
+position: absolute;
+width: 300px;
+height: 50px;
+left: 0%;
+padding: 10px;
+}
+.prime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+.row{
+    padding-top: 1%;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 0em;
+}
+.searchText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.searchText1{
+    font-size: 20px;
+}
+.func0{
+    padding-left: 25px;
+}
+.createuser{
+    text-align: end;
+    padding-bottom: 0px;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+ 

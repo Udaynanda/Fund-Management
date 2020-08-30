@@ -1,0 +1,40 @@
+.f0 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+  }
+  .f3{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top : 5%;
+    padding-bottom: 3%;
+  }
+  .cc1{
+      display: flex;
+      padding-bottom: 3%;
+      padding-top: 3%;
+  }
+
+
+.c1{
+  text-align: center;
+} 
+.f1{
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+}
+.c0{
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 0%;
+}
+.img{
+  display: block;
+  width : 80%;
+  height:auto;
+}
+#displaytable{
+  display: none;
+}

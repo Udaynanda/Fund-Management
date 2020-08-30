@@ -1,0 +1,47 @@
+ <html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="login.css">
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script></script>
+      
+    </head>
+    <body>
+      <div class="container-fluid c0">
+        <div class="jumbotron f1">
+          <img class="img-responsive img" src="./assets/logo1.png" alt="">
+        </div>
+      <div>
+      <div class="container">
+         
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <div id="tab-btn">
+                  <a id=ff href="loginuser.html" class="loginuser active">User</a>
+                    <a id=ff href="loginadmin.html" class="admin ">Admin</a>
+                </div>
+                <h5 class="card-title text-center g3"></h5>
+                <form action="loginadmin.php" method = "post" class="form-signin">
+                  <div class="form-label-group">
+                    <input name="username" class="form-control" placeholder="Email address" required autofocus>
+                    <label for="inputEmail">Admin ID</label>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="password" name ="password" class="form-control" placeholder="Password" required>
+                    <label for="inputPassword">Password</label>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" id="lgin" name ='but_submit' type="submit">Login</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>
